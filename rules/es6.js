@@ -165,7 +165,7 @@ module.exports = {
 
 		// enforce spacing around the * in yield* expressions
 		// http://eslint.org/docs/rules/yield-star-spacing
-		'yield-star-spacing': ['error', 'after']
+		'yield-star-spacing': ['error', 'after'],
 
 		// disallow certain object properties
 		// http://eslint.org/docs/rules/no-restricted-properties

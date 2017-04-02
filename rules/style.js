@@ -76,7 +76,7 @@ module.exports = {
 
 		// this option sets a specific tab width for your code
 		// http://eslint.org/docs/rules/indent
-		indent: ['error', "tab", {
+		indent: ['error', 'tab', {
 			SwitchCase: 1,
 			VariableDeclarator: 1,
 			outerIIFEBody: 1,
@@ -249,7 +249,7 @@ module.exports = {
 		'no-new-object': 'error',
 
 		// we use semicolons, so it doesn't matter that the ++ operators are subject to ASI
-		/// sallow use of unary operators, ++ and --
+		// / sallow use of unary operators, ++ and --
 		// http://eslint.org/docs/rules/no-plusplus
 		'no-plusplus': 'off',
 
