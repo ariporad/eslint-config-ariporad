@@ -1,6 +1,19 @@
-# Airbnb React/JSX Style Guide
+# @ariporad's React/JSX Style Guide
 
-*A mostly reasonable approach to React and JSX*
+*My Personal React/JSX Style Guide. ~~Stolen from~~ Inspired By [AirBnB's][airbnb]*
+
+[ES6 Version](https://github.com/ariporad/eslint-preset-ariporad)
+
+## Usage
+
+```bash
+# Install Everything
+$ npm i -D eslint-config-ariporad eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y
+
+# Then, create a eslintrc:
+$ echo "{ \"extends\": \"ariporad/react\" }" > .eslintrc.json
+```
+
 
 ## Table of Contents
 
